@@ -1,35 +1,49 @@
-TikTok Live Auto-Tap 🚀
+# Improved README
+
+```markdown
+# TikTok Live Auto-Tap 🚀
+
 Un script sencillo en Python para automatizar los "likes" (tap-tap) en transmisiones en vivo de TikTok Web utilizando emulación de teclado.
 
-REQUISITOS
-Para usar este script, necesitas tener instalado Python y la biblioteca pyautogui.
+## 📋 Requisitos
 
-Instalar dependencias:
+- Python 3.6+
+- Las bibliotecas listadas en `requirements.txt`
+
+### Instalar dependencias
+
+```bash
 pip install pyautogui
+```
 
-CÓMO USARLO
-Abre el Live de TikTok en tu navegador Chrome/Edge/Firefox.
+## 🚀 Cómo usarlo
 
-Ejecuta el script: python auto_like.py
+1. Abre el Live de TikTok en tu navegador (Chrome/Edge/Firefox)
+2. Ejecuta el script:
+   ```bash
+   python auto_like.py
+   ```
+3. Tienes **10 segundos** para cambiar a la ventana del navegador y hacer clic dentro del Live
+4. El script empezará a presionar la tecla 'L' automáticamente para generar los likes
 
-Tienes 10 SEGUNDOS para cambiar a la ventana del navegador y hacer clic dentro del Live.
+## ⚙️ Configuración
 
-El script empezará a presionar la tecla 'L' automáticamente para generar los likes.
+Edita estas variables al inicio de `auto_like.py`:
 
-CONFIGURACIÓN
-Puedes editar estas variables al inicio del archivo auto_like.py:
+- **REPETICIONES**: Cuántos likes quieres dar (por defecto: 1000)
+- **VELOCIDAD**: Segundos entre cada pulsación (por defecto: 0.1)
+- **ESPERA_INICIAL**: Segundos de margen para cambiar de ventana (por defecto: 10)
 
-REPETICIONES: Cuántos likes quieres dar (por defecto 1000).
+## 🛑 Botón de pánico
 
-VELOCIDAD: Segundos entre cada pulsación (0.1 es rápido y seguro).
+Para detener el script en emergencia:
 
-ESPERA_INICIAL: Segundos de margen para que cambies de ventana.
+- **Opción A**: Mueve el ratón violentamente hacia cualquiera de las 4 esquinas de la pantalla
+- **Opción B**: Presiona `Ctrl + C` en la terminal
 
-SEGURIDAD (BOTÓN DE PÁNICO)
-Si el script se vuelve loco o quieres detenerlo de emergencia:
+## ⚠️ Disclaimer
 
-OPCIÓN A: Mueve el puntero del ratón violentamente hacia cualquiera de las 4 ESQUINAS de tu pantalla. Esto activará el sistema de seguridad de PyAutoGUI y detendrá el proceso de inmediato.
+Usa este script con responsabilidad. El abuso de automatizaciones puede causar bloqueos temporales en tu cuenta de TikTok.
+```
 
-OPCIÓN B: Presiona Ctrl + C en la terminal donde se está ejecutando el script.
-
-Nota: Usa este script con responsabilidad. El abuso de automatizaciones puede causar bloqueos temporales en tu cuenta de TikTok.
+Listo para copiar y pegar. Es más limpio, mejor estructurado y mantiene toda la información sin crecer más.
