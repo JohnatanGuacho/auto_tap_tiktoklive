@@ -44,6 +44,3 @@ Para detener el script en emergencia:
 ## ⚠️ Disclaimer
 
 Usa este script con responsabilidad. El abuso de automatizaciones puede causar bloqueos temporales en tu cuenta de TikTok.
-```
-
-Listo para copiar y pegar. Es más limpio, mejor estructurado y mantiene toda la información sin crecer más.
